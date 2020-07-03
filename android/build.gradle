@@ -35,4 +35,5 @@ android {
 
 dependencies {
     implementation fileTree(include: '*.aar', dir: 'libs')
+    implementation project(":tesseract4android-release")
 }
